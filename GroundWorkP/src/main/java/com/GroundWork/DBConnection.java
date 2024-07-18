@@ -10,7 +10,7 @@ public class DBConnection {
 		Connection conn = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/GroundWork", "root", "Vivek@123");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/GroundWork", "root", "");
 
 //	            String Cdatab="create database GroundWork";
 //		  		  String ctable="CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY,username VARCHAR(50) NOT NULL,password VARCHAR(50) NOT NULL,email VARCHAR(100) NOT NULL);";
